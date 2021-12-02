@@ -1,3 +1,5 @@
 .hero {
-  background: tomato;
+  background-image: url(../../images/hero-background.jpg);
+  height: 700px;
+  background-size: cover;
 }

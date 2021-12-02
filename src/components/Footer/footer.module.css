@@ -1,3 +1,26 @@
 .footer {
-  background: sienna;
+  display: flex;
+  max-width: 1422px;
+  margin: auto;
+  padding: 70px 0;
+}
+
+.footer .footerBox1 {
+  width: 50%;
+}
+
+.footer .footerBox2,
+.footer .footerBox3 {
+  width: 25%;
+}
+
+.footer .box2Links,
+.footer .box3Links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .box2Links a,
+.footer .box3Links a {
+  text-decoration: none;
 }

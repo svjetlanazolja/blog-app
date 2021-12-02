@@ -1,10 +1,13 @@
 import React from "react";
 import styles from "./hero.module.css";
+import Navbar from "../Navbar/navbar";
+import Button from "../Button/ButtonCom";
 
 const Hero = () => {
   return (
     <div className={styles.hero}>
-      <h1>Hero</h1>
+      <Navbar />
+      <Button />
     </div>
   );
 };
