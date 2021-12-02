@@ -4,7 +4,15 @@ import styles from "./navbar.module.css";
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
-      <h1>Navbar</h1>
+      <a href="#" className={styles.nav}>
+        VIDEOS
+      </a>
+      <a href="#" className={styles.nav}>
+        ABOUT
+      </a>
+      <a href="#" className={styles.nav}>
+        CONTACT
+      </a>
     </div>
   );
 };

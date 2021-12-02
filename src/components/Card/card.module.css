@@ -1,3 +1,25 @@
-.card {
-  background: peru;
+.titleBlog {
+  color: #3399cc;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.textBlog {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  line-height: 2em;
+  font-weight: 400;
+  color: #666666;
+}
+
+.bodyCard {
+  background-color: #f4f4f4;
+  padding: 30px !important;
+}
+
+.containerCard {
+  width: "30%";
+  margin: "0 0 5% 0";
+  background-color: red;
 }
